@@ -24,8 +24,8 @@ class Rem(Tk):
                                          user='root',
                                          password='toor')
                         self.myCursor = self.conn.cursor()
-                        self.myCursor.execute("DELETE FROM project WHERE GroupNumber = %s", [a.get()])
                         self.myCursor.execute("DELETE FROM student WHERE GroupNumber = %s", [a.get()])
+                        self.myCursor.execute("DELETE FROM project WHERE GroupNumber = %s", [a.get()])                        
                         self.conn.commit()
                         if self.myCursor.rowcount == 0:
                             messagebox.showinfo("Message", f"Project with ID '{a.get()}' not found.\nNo change has been done")

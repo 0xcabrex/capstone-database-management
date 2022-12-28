@@ -94,11 +94,6 @@ BEGIN
 END $$
 DELIMITER ;
 
-/* CALL InsertFaculty("Achal MAAMA", "Assistant Professor", 4, "SpaSe", "NiCE", 3, @M); */
-
-
-
-
 
 /* Procedure to insert a project. It checks if the number of existing projects are exceeding the number of acceptable 
 projects by the prof. */

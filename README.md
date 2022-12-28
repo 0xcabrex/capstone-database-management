@@ -27,4 +27,4 @@ python3 main.py
 
 ### Relational Schema
 
-<p align="left"><img src="https://github.com/0xcabrex/capstone-database-management/blob/master/assets/relational_schema.png/></p>
+<p align="left"><img src="https://github.com/0xcabrex/capstone-database-management/blob/master/assets/relational_schema.png"/></p>
